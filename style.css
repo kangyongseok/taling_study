@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.background_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-size: 40px;
+}
+
+.avatar_area {
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.avatar_area .avatar {
+    background: url('https://t1.daumcdn.net/cfile/blog/266CEE46575C014924') no-repeat 50% 10%;
+    background-size: 600px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    border: 3px solid black;
+}
+
+.avatar_area p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
