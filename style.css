@@ -1,29 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 html,
 body {
     width: 100%;
     height: 100%;
+    background: #f1f1f1;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav_area {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #191d22;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #666666;
+}
+
+.nav_area ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.nav_area ul li {
+    color: white;
+}
+
+.nav_area ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_area ul li a:hover {
+    color: yellow;
 }
 
 .background_area {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg') no-repeat 50% 50%;
-    background-size: cover;
+    background: #27282b;
+    /* background: url('https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg') no-repeat 50% 50%;
+    background-size: cover; */
     width: 100%;
     height: 400px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.background_area h1 {
+    font-weight: 500;
 }
 
 .avatar_area {
     position: absolute;
-    top: 280px;
+    top: 350px;
     left: 50%;
     margin-left: -100px;
 }
@@ -38,9 +85,53 @@ body {
     border: 3px solid black;
 }
 
+.avatar_area .avatar .mail_address {
+
+}
+
 .avatar_area p {
     text-align: center;
     margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
+}
+
+.spec_area {
+    margin-top: 250px;
+}
+
+.spec_area ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.spec_area ul li {
+    display: flex;
+    align-items: center;
+}
+
+.spec_area ul li span:first-child {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+section {
+    margin-top: 150px;
+    background: #e1e1e1;
+    padding: 50px 0;
+}
+
+section .character {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #565657;
 }
