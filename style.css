@@ -84,6 +84,8 @@ ul {
     height: 200px;
     border-radius: 300px;
     border: 3px solid black;
+    box-shadow:  -16px -16px 32px #212224, 
+                16px 16px 32px #2d2e32;
 }
 
 .avatar_area .avatar .mail_address {
