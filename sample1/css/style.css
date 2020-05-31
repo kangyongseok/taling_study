@@ -83,7 +83,7 @@ ul {
     width: 200px;
     height: 200px;
     border-radius: 300px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     box-shadow:  -16px -16px 32px #212224, 
                 16px 16px 32px #2d2e32;
 }
@@ -94,7 +94,7 @@ ul {
 
 .avatar_area p {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 30px;
     font-weight: bold;
 }
