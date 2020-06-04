@@ -119,19 +119,63 @@ ul {
     font-size: 20px;
 }
 
-section {
+.section01 {
     margin-top: 150px;
     background: white;
     padding: 50px 0;
 }
 
-section .character {
+.section01 .character {
     width: 1000px;
     margin: 0 auto;
     display: flex;
     align-items: flex-start;
     margin-bottom: 50px;
 }
+
+
+.portfolio_area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.portfolio_area .card_section {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio_area .card_section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio_area .card_section .slide_up {
+    position: absolute;
+    bottom: calc(-100% + 44px);
+    left: 0;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.5);
+    transition: all 1s ease-in-out;
+}
+
+.portfolio_area .card_section .slide_up p:first-child {
+    background: rgba(128, 128, 128, 0.9);
+}
+
+.portfolio_area .card_section .slide_up p {
+    color: white;
+    padding: 10px;
+}
+
+.portfolio_area .card_section .slide_up:hover {
+    bottom: 0;
+}
+
 
 footer {
     display: flex;
